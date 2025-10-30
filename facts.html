@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Узнайте, что такое нейросети, как они работают и интересные факты о них. Простым языком о сложных технологиях искусственного интеллекта.">
+    <title>БайтыРазума — нейросети просто и интересно</title>
+    <link rel="stylesheet" href="./css/base/base.css">
+    <link rel="stylesheet" href="./css/blocks/facts.css">
+    <link rel="shortcut icon" href="./images/main-icon.jpg">
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav container">
+            <img src="./images/main-icon.jpg"
+                srcset="./images/main-icon.jpg 1x, ./images/main-icon@2x.jpg 2x" 
+                 alt="Логотип БайтыРазума" 
+                 class="header__logo"
+                 loading="eager"
+                 decoding="async">
+            <div class="burger-menu">
+                <div class="burger-menu__decoration">
+                    <svg class="burger-menu__arrow" width="131" height="136" viewBox="0 0 131 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.6507 43.2949C32.4339 30.7255 51.9743 23.0115 72.683 28.6293C91.3749 33.7001 103.143 49.6308 90.5396 69.3323C84.5735 78.6586 71.8706 85.1866 61.8852 79.874C50.7606 73.9554 59.5288 59.017 66.6505 54.7089C83.2839 44.6468 106.696 49.3237 118.212 68.8676C131.849 92.0121 108.785 103.532 108.769 103.344" stroke="currentColor" stroke-width="3.37884" stroke-miterlimit="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M19.2682 18.3819C19.8774 20.8064 19.5256 23.2335 19.2862 25.677C18.5006 33.7006 15.3552 42.0307 9.71151 47.2931C17.1379 44.0369 27.7921 42.6188 34.5374 48.3345" stroke="currentColor" stroke-width="3.37884" stroke-miterlimit="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <div class="burger-menu__button">
+                        <div class="burger-menu__line burger-menu__line--first"></div>
+                        <div class="burger-menu__line burger-menu__line--second"></div>
+                        <div class="burger-menu__line burger-menu__line--third"></div>
+                    </div>
+                    <p class="text accent-text burger-menu__text">навигация <br>по странице</p>
+                </div>
+                <div class="burger-menu__overlay"></div>
+                <div class="burger-menu__content">
+                    <div class="burger-menu__links">
+                        <a class="burger-menu__link text-link" href="#positive-facts">Позитивные факты</a>
+                        <a class="burger-menu__link text-link" href="#bad-facts">Проблематика</a>
+                        <a class="burger-menu__link text-link" href="#main-page">Вернуться</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="hero">
+            <div class="hero__title">
+                <h1 class="accent-text hero__label">Нейросети - удивительный мир</h1>
+                <p class="text hero__underlabel">Польза и риски: что перевешивает? Реальные возможности ИИ и скрытые опасности, которые стоит знать.
+                </p>
+            </div>
+            <div class="hero__blocks">
+                <div class="hero__block">
+                    <h3 class="accent-text">в 15 раз</h3>
+                    <p class="text">вырос спрос с 2022 года</p>
+                </div>
+                <div class="hero__block">
+                    <h3 class="accent-text">~1,8 триллиона</h3>
+                    <p class="text">параметров одного ChatGPT</p>
+                </div>
+                <div class="hero__block">
+                    <h3 class="accent-text">24/7</h3>
+                    <p class="text">нейросети постоянно развиваются</p>
+                </div>
+            </div>
+            <a href="#positive-facts" class="hero__arrow arrow"></a>
+        </section>
+        
+        <section class="facts" id="positive-facts">
+            <div class="facts__container fade-section">
+                <h2 class="accent-text facts__title">ИИ в медицине: реальные спасения жизней</h2>
+                <div class="facts__card facts__card--positive">
+                    <img src="./images/positive-facts__image--fourth.jpg" 
+                        srcset="./images/positive-facts__image--fourth.jpg 1x, ./images/positive-facts__image--fourth2x.jpg 2x" 
+                        alt="Врач и ИИ анализируют медицинские данные" 
+                        class="facts__img"
+                        loading="lazy"
+                        width="600" height="400">
+                    
+                    <div class="facts__content">
+                        <h3 class="text">Нейросети становятся незаменимыми помощниками врачей в диагностике и предотвращении заболеваний</h3>
+                        
+                        <div class="facts__stats">
+                            <div class="facts__stat">
+                                <div class="facts__stat-label">
+                                    <img src="./images/doctor.png" 
+                                        srcset="./images/doctor.png 1x, ./images/doctor2x.png 2x" 
+                                        class="facts__stat-icon" 
+                                        alt="Иконка точности"
+                                        loading="lazy"
+                                        width="40" height="auto">
+                                    <p class="accent-text">Цифровой врач</p>
+                                </div>
+                                <p class="text">Диагностируют болезни, анализируя миллионы медицинских статей</p>
+                            </div>
+                            <div class="facts__stat">
+                                <div class="facts__stat-label">
+                                    <img src="./images/prediction.png" 
+                                        srcset="./images/prediction.png 1x, ./images/prediction2x.png 2x" 
+                                        class="facts__stat-icon" 
+                                        alt="Иконка предсказания"
+                                        loading="lazy"
+                                        width="40" height="auto">
+                                    <p class="accent-text">Предсказания</p>
+                                </div>
+                                <p class="text">Есть случаи предсказания болезней по МРТ-снимкам за несколько лет до симптомов</p>
+                            </div>
+                        </div>
+                        
+                        <p class="text">
+                            Пример: в Токио IBM Watson обнаружила у пациентки редкий тип лейкемии, который врачи первоначально диагностировали неверно. Система проанализировала генетические данные и нашла соответствие в 4000 медицинских исследований. Это позволило назначить правильное лечение и спасти жизнь.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="facts__container fade-section">
+                <h2 class="accent-text facts__title facts__title--reflection">Помогают создавать лекарства:</h2>
+                <div class="facts__card facts__card--positive-reflection facts__card--reflection">
+                    <img src="./images/positive-facts__img--first.jpg" 
+                        srcset="./images/positive-facts__img--first.jpg 1x, ./images/positive-facts__img--first2x.jpg 2x" 
+                        alt="Девушка-врач и нейросети" 
+                        class="facts__img"
+                        loading="lazy"
+                        width="600" height="400">
+                    
+                    <div class="facts__content">
+                        <h3 class="text facts__text--reflection">Нейросети анализируют миллионы химических соединений и предсказывают, какие из них могут стать эффективными</h3>
+                        
+                        <div class="facts__stats">
+                            <div class="facts__stat">
+                                <div class="facts__stat-label">
+                                    <img src="./images/speed.png" 
+                                        srcset="./images/speed.png 1x, ./images/speed2x.png 2x" 
+                                        class="facts__stat-icon" 
+                                        alt="Скорость"
+                                        loading="lazy"
+                                        width="40" height="auto">
+                                    <p class="accent-text">в 10 раз быстрее</p>
+                                </div>
+                                <p class="text">Сокращение времени доклинических исследований</p>
+                            </div>
+                            <div class="facts__stat">
+                                <div class="facts__stat-label">
+                                    <img src="./images/savings.png" 
+                                        srcset="./images/savings.png 1x, ./images/savings2x.png 2x" 
+                                        class="facts__stat-icon" 
+                                        alt="Экономия"
+                                        loading="lazy"
+                                        width="40" height="auto">
+                                    <p class="accent-text">Экономия $1 млрд+</p>
+                                </div>
+                                <p class="text">на разработку одного препарата</p>
+                            </div>
+                        </div>
+                        
+                        <p class="text facts__text--reflection">
+                            Как пример: Halicin - антибиотик, найденный ИИ. Убивает устойчивые бактерии. Сейчас на стадии доклинических испытаний.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="facts__container fade-section">
+                <h2 class="accent-text facts__title">"Видят" невидимое:</h2>
+                <div class="facts__card facts__card--positive">
+                    <img src="./images/positive-facts__img--second.jpg" 
+                        srcset="./images/positive-facts__img--second.jpg 1x, ./images/positive-facts__img--second2x.jpg 2x" 
+                        alt="Нейросеть прогнозирует" 
+                        class="facts__img"
+                        loading="lazy"
+                        width="600" height="400">
+                    
+                    <div class="facts__content">
+                        <h3 class="text">Нейросети находят то, что недоступно человеческому восприятию во многих сферах деятельности</h3>
+                        
+                        <div class="facts__stats">
+                            <div class="facts__stat">
+                                <div class="facts__stat-label">
+                                    <img src="./images/superhero.png" 
+                                        srcset="./images/superhero.png 1x, ./images/superhero2x.png 2x" 
+                                        class="facts__stat-icon" 
+                                        alt="Суперспособность"
+                                        loading="lazy"
+                                        width="40" height="auto">
+                                    <p class="accent-text">Суперспособность</p>
+                                </div>
+                                <p class="text">Находят сложные закономерности, которые человек не в состоянии осознать</p>
+                            </div>
+                            <div class="facts__stat">
+                                <div class="facts__stat-label">
+                                    <img src="./images/question.png" 
+                                        srcset="./images/question.png 1x, ./images/question2x.png 2x" 
+                                        class="facts__stat-icon" 
+                                        alt="Вопрос"
+                                        loading="lazy"
+                                        width="40" height="auto">
+                                    <p class="accent-text">Загадочность их возможностей</p>
+                                </div>
+                                <p class="text">Создатели не всегда понимают, почему сеть приняла решение</p>
+                            </div>
+                        </div>
+                        
+                        <p class="text">
+                            Феномен "параидолии ИИ": в случайных данных нейросеть может разглядеть сложные закономерности. Эта способность находит новые ресурсы и лекарства, но остается одной из главных проблем и точек роста в области искусственного интеллекта.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="facts__container fade-section">
+                <h2 class="accent-text facts__title facts__title--reflection">Открывают новые миры:</h2>
+                <div class="facts__card facts__card--positive-reflection facts__card--reflection">
+                    <img src="./images/positive-facts__img--fiveth.jpg" 
+                        srcset="./images/positive-facts__img--fiveth.jpg 1x, ./images/positive-facts__img--fiveth2x.jpg 2x" 
+                        alt="Новая планета" 
+                        class="facts__img"
+                        loading="lazy"
+                        width="600" height="400">
+                    
+                    <div class="facts__content">
+                        <h3 class="text facts__text--reflection">Нейросети анализируют данные телескопов и находят планеты, которые человек не может обнаружить вручную</h3>
+                        
+                        <div class="facts__stats">
+                            <div class="facts__stat">
+                                <div class="facts__stat-label">
+                                    <img src="./images/automation.png" 
+                                        srcset="./images/automation.png 1x, ./images/automation2x.png 2x" 
+                                        class="facts__stat-icon" 
+                                        alt="Автоматизация"
+                                        loading="lazy"
+                                        width="40" height="auto">
+                                    <p class="accent-text">96% точность</p>
+                                </div>
+                                <p class="text">Обнаружения экзопланет в данных телескопа Kepler</p>
+                            </div>
+                            <div class="facts__stat">
+                                <div class="facts__stat-label">
+                                    <img src="./images/accuracy.png" 
+                                        srcset="./images/accuracy.png 1x, ./images/accuracy2x.png 2x" 
+                                        class="facts__stat-icon" 
+                                        alt="Точность"
+                                        loading="lazy"
+                                        width="40" height="auto">
+                                    <p class="accent-text">2 новые планеты</p>
+                                </div>
+                                <p class="text">Обнаружены нейросетью Google в системе Kepler-90</p>
+                            </div>
+                        </div>
+                        
+                        <p class="text facts__text--reflection">
+                            Нейросеть AstroNet-Kepler проанализировала данные телескопа Kepler и обнаружила планету Kepler-90i - восьмую планету в системе звезды Kepler-90. ИИ также нашел планету Kepler-80g, анализируя слабые изменения яркости звезд, которые астрономы не замечали 4 года.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="facts__container fade-section">
+                <h2 class="accent-text facts__title">Выигрывают у людей:</h2>
+                <div class="facts__card facts__card--positive">
+                    <img src="./images/positive-facts__img--third.jpg" 
+                        srcset="./images/positive-facts__img--third.jpg 1x, ./images/positive-facts__img--third2x.jpg 2x" 
+                        alt="Нейросеть рисует" 
+                        class="facts__img"
+                        loading="lazy"
+                        width="600" height="400">
+                    
+                    <div class="facts__content">
+                        <h3 class="text">Нейросети побеждают чемпионов в интеллектуальных играх и создают произведения искусства, оцениваемые в миллионы</h3>
+                        
+                        <div class="facts__stats">
+                            <div class="facts__stat">
+                                <div class="facts__stat-label">
+                                    <img src="./images/victory.png" 
+                                        srcset="./images/victory.png 1x, ./images/victory2x.png 2x" 
+                                        class="facts__stat-icon" 
+                                        alt="Победа"
+                                        loading="lazy"
+                                        width="40" height="auto">
+                                    <p class="accent-text">Победа над чемпионом</p>
+                                </div>
+                                <p class="text">AlphaGo обыграла Ли Седоля в Го (игра сложнее шахмат)</p>
+                            </div>
+                            <div class="facts__stat">
+                                <div class="facts__stat-label">
+                                    <img src="./images/moneys.png" 
+                                        srcset="./images/moneys.png 1x, ./images/moneys2x.png 2x" 
+                                        class="facts__stat-icon" 
+                                        alt="Деньги"
+                                        loading="lazy"
+                                        width="40" height="auto">
+                                    <p class="accent-text">в $432 500 оценивается</p>
+                                </div>
+                                <p class="text">картина "Портрет Эдмонда Белами", созданная нейросетью</p>
+                            </div>
+                        </div>
+                        
+                        <p class="text">
+                            DALL-E 2 и Midjourney побеждают в художественных конкурсах, создавая работы, которые жюри не могут отличить от творений человека.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="bad-facts" id="bad-facts">
+            <div class="bad-facts__container">
+                <div class="bad-facts__item fade-section">
+                    <h3 class="accent-text bad-facts__title">Вред экологии:</h3>
+                    <div class="facts__card bad-facts__card">
+                        <img src="./images/pollution.jpg" 
+                            srcset="./images/pollution.jpg 1x, ./images/pollution2x.jpg 2x" 
+                            alt="Центр обработки данных потребляет огромное количество энергии" 
+                            class="bad-facts__img facts__img"
+                            loading="lazy"
+                            width="600" height="400">
+                        
+                        <div class="bad-facts__content facts__content">
+                            <h3 class="text">Нейросети потребляют колоссальные ресурсы и наносят катастрофический вред экологии</h3>
+                            
+                            <div class="bad-facts__stats facts__stats">
+                                <div class="bad-facts__stat facts__stat">
+                                    <div class="bad-facts__stat-label facts__stat-label">
+                                        <img src="./images/battery.png" 
+                                            srcset="./images/battery.png 1x, ./images/battery2x.png 2x" 
+                                            class="bad-facts__stat-icon facts__stat-icon" 
+                                            alt="Иконка энергопотребления"
+                                            loading="lazy"
+                                            width="40" height="auto">
+                                        <p class="accent-text">Энергопотребление</p>
+                                    </div>
+                                    <p class="text">17 000 МВтч энергии ежемесячно = полной зарядки ~3,4 миллиарда смартфонов</p>
+                                </div>
+                                <div class="bad-facts__stat facts__stat">
+                                    <div class="bad-facts__stat-label facts__stat-label">
+                                        <img src="./images/emissions.png" 
+                                            srcset="./images/emissions.png 1x, ./images/emissions2x.png 2x" 
+                                            class="bad-facts__stat-icon facts__stat-icon" 
+                                            alt="Иконка выбросов CO2"
+                                            loading="lazy"
+                                            width="40" height="auto">
+                                        <p class="accent-text">Углеродные выбросы</p>
+                                    </div>
+                                    <p class="text">Ежемесячные выбросы одного ChatGPT ~261 т = выбросам от 1350 автомобилей за один месяц</p>
+                                </div>
+                            </div>
+                            
+                            <p class="text">
+                                Прямо сейчас нейросети не являются главным загрязнителем планеты, но их "аппетит" к энергии огромен и растет очень быстро.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bad-facts__item fade-section">
+                    <h3 class="accent-text bad-facts__title">Бесконтрольный рост:</h3>
+                    <div class="facts__card bad-facts__card">
+                        <img src="./images/neuro.jpg" 
+                            srcset="./images/neuro.jpg 1x, ./images/neuro2x.jpg 2x" 
+                            alt="Экспоненциальный рост вычислительных мощностей для нейросетей" 
+                            class="bad-facts__img facts__img"
+                            loading="lazy"
+                            width="600" height="400">
+                        
+                        <div class="bad-facts__content facts__content">
+                            <h3 class="text">Нейросети размножаются с пугающей скоростью без должного регулирования</h3>
+                            
+                            <div class="bad-facts__stats facts__stats">
+                                <div class="bad-facts__stat facts__stat">
+                                    <div class="bad-facts__stat-label facts__stat-label">
+                                        <img src="./images/growth.png" 
+                                            srcset="./images/growth.png 1x, ./images/growth2x.png 2x" 
+                                            class="bad-facts__stat-icon facts__stat-icon" 
+                                            alt="Иконка роста"
+                                            loading="lazy"
+                                            width="40" height="auto">
+                                        <p class="accent-text">Быстрый рост</p>
+                                    </div>
+                                    <p class="text">Быстрое развитие нейросетей создает угрозу нашей кибербезопасности</p>
+                                </div>
+                                <div class="bad-facts__stat facts__stat">
+                                    <div class="bad-facts__stat-label facts__stat-label">
+                                        <img src="./images/security.png" 
+                                            srcset="./images/security.png 1x, ./images/security2x.png 2x" 
+                                            class="bad-facts__stat-icon facts__stat-icon" 
+                                            alt="Иконка неконтролируемого развития"
+                                            loading="lazy"
+                                            width="40" height="auto">
+                                        <p class="accent-text">Отсутствие контроля</p>
+                                    </div>
+                                    <p class="text">Создаются сотни новых нейросетей без единых стандартов безопасности и экологической отчетности</p>
+                                </div>
+                            </div>
+                            
+                            <p class="text">
+                                Технологическая гонка приводит к неконтролируемому размножению ИИ-систем, создавая угрозу кибербезопасности.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bad-facts__item bad-facts__item--big fade-section">
+                    <h2 class="accent-text bad-facts__title bad-facts__title--big">Риск потерять правду:</h2>
+                    <div class="facts__card bad-facts__card bad-facts__card--big">
+                        <img src="./images/info.jpg" 
+                            srcset="./images/info.jpg 1x, ./images/info2x.jpg 2x" 
+                            alt="Человек в паутине противоречивой информации от ИИ" 
+                            class="bad-facts__img facts__img"
+                            loading="lazy"
+                            width="600" height="400">
+                        
+                        <div class="bad-facts__content facts__content">
+                            <h3 class="text">Нейросети размывают границы между правдой и ложью, создавая опасный информационный хаос</h3>
+                            
+                            <div class="bad-facts__stats bad-facts__stats--big facts__stats">
+                                <div class="bad-facts__stat facts__stat">
+                                    <div class="bad-facts__stat-label facts__stat-label">
+                                        <img src="./images/true.png" 
+                                            srcset="./images/true.png 1x, ./images/true2x.png 2x" 
+                                            class="bad-facts__stat-icon facts__stat-icon" 
+                                            alt="Иконка искажения"
+                                            loading="lazy"
+                                            width="40" height="auto">
+                                        <p class="accent-text">Искажение фактов</p>
+                                    </div>
+                                    <p class="text">ИИ обучается на всех данных интернета, где правда смешана с вымыслом</p>
+                                </div>
+                                <div class="bad-facts__stat facts__stat">
+                                    <div class="bad-facts__stat-label facts__stat-label">
+                                        <img src="./images/manipulation.png" 
+                                            srcset="./images/manipulation.png 1x, ./images/manipulation2x.png 2x" 
+                                            class="bad-facts__stat-icon facts__stat-icon" 
+                                            alt="Иконка манипуляции"
+                                            loading="lazy"
+                                            width="40" height="auto">
+                                        <p class="accent-text">Манипуляции</p>
+                                    </div>
+                                    <p class="text">Злоупотребление ИИ создает тонны убедительной дезинформации</p>
+                                </div>
+                            </div>
+                            
+                            <p class="text">
+                                Пример: нейросети уже сегодня генерируют реалистичные, но ложные медицинские статьи, исторические "факты" и научные "исследования". Пользователи принимают вымысел за истину, поскольку ИИ подает информацию уверенно и убедительно. Это ведет к массовым заблуждениям в критически важных сферах - от здоровья до политики.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+    </main>
+    <footer id="main-page" class="fade-section">
+        <section class="footer">
+            <div class="conclusion">
+                <h2 class="accent-text conclusion__title">Итог:</h2>
+                <p class="title conclusion__text">Важно думать не только о том, как использовать нейросети, но и как их контролировать и регулировать. Нейросети — не зло и не добро, всё зависит от того, в чьих руках они окажутся. Главное звено в этой цепи — человек. Именно мы решаем, во что превратятся технологии: в помощника или в угрозу. Без человека нейросети — просто инструмент. А с разумом, этикой и ответственностью — они могут стать силой, меняющей мир к лучшему.</p>
+                <a href="./index.html" class="conclusion__link prev-page__link accent-text">вернуться
+                    <svg class="conclusion__arrow arrow-left" width="11" height="12" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 6H11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </div>
+        </section>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -253,8 +253,8 @@
     padding: 20px 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    min-height: 200px;
+    justify-content: space-between;
+    height: 250px;
 }
 
 .architecture__info-label {
@@ -274,6 +274,7 @@
     max-height: 1000px;
     border-radius: 0 0 var(--border-radius-main) var(--border-radius-main);
 }
+
 
 .architecture__item.active .architecture__label {
     border-radius: var(--border-radius-main) var(--border-radius-main) 0 0;

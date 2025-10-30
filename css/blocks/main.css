@@ -114,6 +114,7 @@ ol {
 
 .body-no-scroll {
     overflow: hidden;
+    background: linear-gradient(-90deg, #19043d, #26125f) !important
 }
 
 .accent-text {

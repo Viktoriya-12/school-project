@@ -113,6 +113,8 @@ ol {
 
 .body-no-scroll {
     overflow: hidden;
+    touch-action: none;
+    -webkit-overflow-scrolling: none;
 }
 
 .accent-text {
@@ -216,7 +218,7 @@ ol {
 .burger-menu__content {
     display: none;
     position: absolute;
-    background: linear-gradient(to bottom, var(--color-bg-second) 0%, var(--color-bg) 70%);
+    background: linear-gradient(to bottom, var(--color-bg-second) 0%, var(--color-bg) 70%) fixed;
     top: 100%;
     right: 0;
     height: auto;

@@ -18,16 +18,19 @@
 
 html {
     scroll-behavior: smooth;
+    overscroll-behavior: none;
+}
+
+body {
     margin: 0;
     background: linear-gradient(-90deg, #19043d, #26125f);
     position: relative;
+    overflow-x: hidden;
     font-family: var(--font-additional);
     -webkit-overflow-scrolling: touch;
-    overscroll-behavior: none;
-    touch-action: pan-y;
 }
 
-html::before {
+body::before {
     content: '';
     position: fixed;
     top: 0;
@@ -44,7 +47,6 @@ html::before {
     pointer-events: none;
     z-index: -1;
     animation: neuralFloat 60s infinite linear;
-    will-change: transform;
 }
 
 section {

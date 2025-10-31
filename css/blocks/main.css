@@ -22,7 +22,6 @@ html {
 
 body {
     margin: 0;
-    background-color: linear-gradient(-90deg, #19043d, #26125f);
     background: linear-gradient(-90deg, #19043d, #26125f);
     position: relative;
     overflow-x: hidden;
@@ -114,7 +113,6 @@ ol {
 
 .body-no-scroll {
     overflow: hidden;
-    background: linear-gradient(-90deg, #19043d, #26125f) !important
 }
 
 .accent-text {
@@ -130,7 +128,7 @@ ol {
     position: fixed;
     width: 100%;
     background: linear-gradient(to bottom, var(--color-bg) 10%, transparent);
-    z-index: 1000;
+    z-index: 10000;
 }
 
 .header__nav {
@@ -178,7 +176,7 @@ ol {
     align-items: end;
     justify-content: center;
     gap: 10px;
-    z-index: 101;
+    z-index: 10000;
 }
 
 .burger-menu__line {
@@ -236,6 +234,7 @@ ol {
     justify-content: start;
     opacity: 1;
     transform: translateY(0);
+    z-index: 10000;
 }
 
 .burger-menu__content.active .burger-menu__arrow {
@@ -285,6 +284,7 @@ ol {
 }
 
 .burger-menu__overlay.active {
+    z-index: 9999; 
     opacity: 1;
     visibility: visible;
 }

@@ -4,16 +4,11 @@ const menu = document.querySelector('.burger-menu__content');
 const overlay = document.querySelector('.burger-menu__overlay');
 const body = document.body;
 
-function updateBodyStyles() {
-    body.style.background = 'linear-gradient(-90deg, #19043d, #26125f)';
-}
-
 burger.addEventListener('click', function() {
     burger.classList.toggle('active');
     menu.classList.toggle('active');
     overlay.classList.toggle('active');
     body.classList.toggle('body-no-scroll');
-    updateBodyStyles();
 
     if (isFirstClick && this.classList.contains('active')) {
         document.querySelector('.burger-menu__arrow').style.opacity = '0';
@@ -27,7 +22,6 @@ overlay.addEventListener('click', () => {
     menu.classList.remove('active');
     overlay.classList.remove('active');
     body.classList.remove('body-no-scroll');
-    updateBodyStyles();
 });
 
 document.addEventListener('DOMContentLoaded', function() {

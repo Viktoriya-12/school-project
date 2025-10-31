@@ -647,17 +647,3 @@
         transform: scale(1.02);
     }
 }
-
-body::before {
-    z-index: 0 !important;
-}
-
-body {
-    position: relative;
-    z-index: 0;
-}
-
-main, section, header, footer {
-    position: relative;
-    z-index: 1;
-}

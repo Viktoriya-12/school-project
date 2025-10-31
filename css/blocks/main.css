@@ -352,3 +352,10 @@ ol {
         text-decoration-thickness: 0;
     }
 }
+
+
+body::before {
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+}
